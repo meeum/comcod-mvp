@@ -1,3 +1,15 @@
 body {
     background-color: yellow;
 }
+
+
+.gigs {
+
+    border: 2px dashed blue;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
