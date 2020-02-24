@@ -1,12 +1,27 @@
+
+/* General defaults  */
+
 body {
     background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+/* sections */
+.item {
+    background-color: #f1f1f1;
+    border: 2px dashed rgb(255, 0, 0);
+    margin-bottom: 40px;
+}
 
 .gigs {
 
-    border: 2px dashed blue;
+    
 }
+
+/* typography */
 
 h2 {
     background-color: black;
