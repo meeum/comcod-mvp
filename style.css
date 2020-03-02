@@ -6,8 +6,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (min-width: 500px) {
+
+
+    body {
+        background-color: pink;
+    }
+
+}
+
 img,
-video {
+video,
+audio,
+iframe {
     max-width: 100%;
 }
 /* sections */
@@ -28,4 +39,13 @@ h2 {
     background-color: black;
     color: white;
     padding: 20px;
+}
+
+
+@media screen and (min-width: 500px) {
+
+    h2 {
+        color: black;
+        background-color: red;
+    }
 }
