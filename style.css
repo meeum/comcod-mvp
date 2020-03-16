@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 /* General defaults  */
 
 body {
     background-color: yellow;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Permanent Marker', cursive;
+
 }
+
+
+
 
 @media screen and (min-width: 500px) {
 
@@ -27,6 +33,19 @@ audio,
 iframe {
     max-width: 100%;
 }
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+
 /* sections */
 .item {
     background-color: #f1f1f1;
@@ -49,10 +68,15 @@ h2 {
 }
 
 
+
+
 @media screen and (min-width: 500px) {
 
     h2 {
         color: black;
         background-color: red;
+        
     }
+
+    
 }
