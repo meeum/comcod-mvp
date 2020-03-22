@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+:root {
+    --main-background-color: red;
+    --main-text-color: blue;
+
+    --vertical-spacer: 50px;
+
+    --main-font-size: 18px;
+
+    --heading-big: 50px;
+}
+
 /* General defaults  */
 
 body {
-    background-color: yellow;
+    background-color: var(--main-background-color);
+ 
+    color: var(--main-text-color);
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -12,10 +26,13 @@ h1,
 h2,
 h3 {
     font-family: 'Permanent Marker', cursive;
-
 }
 
-
+header {
+    background-color: yellow;
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer);
+}
 
 
 @media screen and (min-width: 500px) {
@@ -45,12 +62,19 @@ a:hover {
     font-size: 20px;
 }
 
+/* layouts */
+.layout {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* sections */
 .item {
     background-color: #f1f1f1;
     border: 2px dashed rgb(255, 0, 0);
-    margin-bottom: 40px;
+    margin-bottom: var(--vertical-spacer);
 }
 
 .gigs {
